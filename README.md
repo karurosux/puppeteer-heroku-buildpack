@@ -2,6 +2,5 @@
 
 Installs dependencies needed in order to run puppeteer on heroku. Be sure to include `{ args: ['--no-sandbox', '--disable-setuid-sandbox'] }` in your call to `puppeteer.launch`
 
-**This fork of the [jontewks buildpack](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack)
-adds support for Chinese, Korean, and Japanese characters. Since it adds
-22MBs for the font files, I've kept it as a separate build pack.**
+**This fork of the [CoffeAndCode](https://github.com/CoffeeAndCode/puppeteer-heroku-buildpack)
+adds support for Thai characters.**
